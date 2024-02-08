@@ -1,0 +1,20 @@
+{
+  "en": {
+    "translation": {
+      "name": "Chia-Han, Chi",
+      "poste": "FrontEnd Developer",
+      "aboutMe": "About Me",
+      "study": "Eductation",
+      "experience": "Professional Experience"
+    }
+  },
+  "fr": {
+    "translation": {
+      "name": "Chia-Han, Chi",
+      "poste": "FrontEnd Developeuse",
+      "aboutMe": "À propos de moi",
+      "study": "Eductation",
+      "experience": "Expérience Professionnelle"
+    }
+  }
+}
