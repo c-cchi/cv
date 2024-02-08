@@ -11,6 +11,7 @@ import profilePhoto from "./profile.png";
 i18n.use(initReactI18next).init({ resources: translation, fallbackLng: "en" });
 
 const availableLang = ["en", "fr"];
+const menu = ["aboutMe", "study", "experience"];
 
 function App() {
   const { t } = useTranslation();
@@ -48,10 +49,12 @@ function App() {
         </div>
       </div>
       <Divider />
-      <div class="flex justify-center items-center gap-4 p-4">
-        <button class="p-4 rounded-full border-2 border-teal-700 bg-teal-400 text-white font-mono font-black shadow-xl hover:shadow-lg active:shadow-inner">
-          {t("aboutMe")}
-        </button>
+      <div class="flex flex-col justify-center items-center gap-4 p-4">
+        {menu.map((item) => (
+          <button class="p-4 rounded-xl border-2 border-teal-700 bg-teal-400 text-white font-mono font-black shadow-xl hover:shadow-lg active:shadow-inner w-60">
+            {t(item)}
+          </button>
+        ))}
       </div>
     </div>
   );
