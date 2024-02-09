@@ -5,7 +5,10 @@
       "poste": "FrontEnd Developer",
       "aboutMe": "About Me",
       "study": "Eductation",
-      "experience": "Professional Experience"
+      "experience": "Professional Experience",
+      "aboutMeDetails": "I'm Chia-Han from Taiwan. \nStarted off in architectural design back in my university days, where I got to blend creativity with practicality. \nWanted to mix things up, so I headed to Paris for Ecole 42, diving into the world of engineering. \nThat switch got me into Frontend Engineering after graduation, where I get to fuse aesthetics into practical solutions. \nI strive to apply what I've learned in different fields, aiming to create things that are both visually appealing and practical.",
+      "studyDetails": "•2018 Ecole42 - Paris, France\n•2016 CCFS – Fondation Robert de Sorbon - Paris, France\n•2010 Shih Chien University - Dep. Architecture - Taipei, Taiwan",
+      "experienceDetails": "2020-2023 La Javaness - Paris, France"
     }
   },
   "fr": {
@@ -14,7 +17,10 @@
       "poste": "FrontEnd Developeuse",
       "aboutMe": "À propos de moi",
       "study": "Eductation",
-      "experience": "Expérience Professionnelle"
+      "experience": "Expérience Professionnelle",
+      "aboutMeDetails": "Je m'appelle Chia-Han et je viens de Taïwan. \nJ'ai débuté dans le domaine de la conception architecturale quand j'étais à l'université, où j'ai pu allier créativité et pragmatisme. \nDésirant explorer de nouveaux horizons, je me suis rendu à Paris pour intégrer l'Ecole 42 et me plonger dans le monde de l'ingénierie. \nCe changement m'a conduit à devenir Ingénieur Frontend, où je peux combiner l'esthétique aux solutions pratiques. \nJe m'efforce d'appliquer ce que j'ai appris dans différents domaines, dans le but de créer des choses à la fois esthétiques et utiles.",
+      "studyDetails": "•2018 Ecole42 - Paris, France\n•2016 CCFS – Fondation Robert de Sorbon - Paris, France\n•2010 Shih Chien University - Dep. Architecture - Taipei, Taiwan",
+      "experienceDetails": "2020Sep-2023Nov La Javaness - Paris, France"
     }
   }
 }

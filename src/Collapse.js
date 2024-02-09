@@ -15,12 +15,10 @@ const Collapse = ({ item }) => {
         {t(item)}
       </button>
       {isVisible ? (
-        <div
-          class="rounded-lg shadow-lg border-2 border-teal-700 max-w-2xl"
-          data-te-collapse-item
-          data-te-collapse-horizontal
-        >
-          <div class="bg-teal-400 rounded p-6"></div>
+        <div class="rounded-lg shadow-lg border-2 border-teal-700 max-w-2xl">
+          <div class="bg-teal-400 rounded p-6 text-teal-50 font-mono font-black whitespace-pre-line">
+            {t(`${item}Details`)}
+          </div>
         </div>
       ) : null}
     </div>
