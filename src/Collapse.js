@@ -14,13 +14,13 @@ const Collapse = ({ item }) => {
       >
         {t(item)}
       </button>
-      {isVisible ? (
-        <div class="rounded-lg shadow-lg border-2 border-teal-700 max-w-2xl">
+      {isVisible && (
+        <div class="rounded-lg shadow-lg border-2 border-teal-700 max-w-2xl animate-transitionIn">
           <div class="bg-teal-400 rounded p-6 text-teal-50 font-mono font-black whitespace-pre-line">
             {t(`${item}Details`)}
           </div>
         </div>
-      ) : null}
+      )}
     </div>
   );
 };

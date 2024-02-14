@@ -10,6 +10,15 @@ module.exports = {
         xl: "1280px",
       },
     },
+    keyframes: {
+      transitionIn: {
+        "0%": { opacity: 0 },
+        "100%": { opacity: 1 },
+      },
+    },
+    animation: {
+      transitionIn: "transitionIn .25s ease-in",
+    },
   },
   plugins: [
     function ({ addUtilities }) {
